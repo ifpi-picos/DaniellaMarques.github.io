@@ -1,37 +1,95 @@
-body{
-    background-color:#FFB6C1;
+body {
+    background-color: #FFB6C1;
     justify-content: center;
 }
-.centro{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #F08080;
-height:900%; 
-width:100%
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F08080;
+    height: 900%;
+    width: 100%
 }
-.container{
-   display: flex;
-   align-items: center;
+
+.container {
+    display: flex;
+    align-items: center;
 }
-.meio{
-   background-color: #F08080;
+
+.meio {
+    background-color: #F08080;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
 }
-.meio0{
-   background-color: #F08080;
-   size: -1px;
+
+.meio0 {
+    background-color: #F08080;
+    size: -1px;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
 }
-.meio1{
-   background-color: #F08080;
+
+.meio1 {
+    background-color: #F08080;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
 }
-.meio2{
-   background-color: #F08080;
-}
+
 footer {
-background-color: #F08080;
-clear: both;
-height: 30px;
-text-align: cent;
+    background-color: #F08080;
+    clear: both;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
 }
 
+.horror {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+}
 
+.meio2 {
+    background-color: #F08080;
+    width: 87%;
+    align-content: center;
+    min-height: 148px;
+    display: inline-block;
+    float: right;
+}
+
+@media (max-width: 1182px) {
+    .meio2 {
+        width: 85%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1042px) {
+    .meio2 {
+        width: 83%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 945px) {
+    .meio2 {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 766px) {
+    .horror {
+        left: 100px;
+    }
+    .meio2 {
+        width: 100%;
+        display: block;
+    }
+}
